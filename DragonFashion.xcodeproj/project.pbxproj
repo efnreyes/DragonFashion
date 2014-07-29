@@ -14,13 +14,14 @@
 		F93DADCA1987F45600238B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F93DADC91987F45600238B78 /* main.m */; };
 		F93DADCE1987F45600238B78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F93DADCD1987F45600238B78 /* AppDelegate.m */; };
 		F93DADD11987F45600238B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93DADCF1987F45600238B78 /* Main.storyboard */; };
-		F93DADD41987F45600238B78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F93DADD31987F45600238B78 /* ViewController.m */; };
+		F93DADD41987F45600238B78 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F93DADD31987F45600238B78 /* RootViewController.m */; };
 		F93DADD61987F45600238B78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93DADD51987F45600238B78 /* Images.xcassets */; };
 		F93DADDD1987F45600238B78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93DADDC1987F45600238B78 /* XCTest.framework */; };
 		F93DADDE1987F45600238B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93DADBD1987F45600238B78 /* Foundation.framework */; };
 		F93DADDF1987F45600238B78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93DADC11987F45600238B78 /* UIKit.framework */; };
 		F93DADE71987F45600238B78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F93DADE51987F45600238B78 /* InfoPlist.strings */; };
 		F93DADE91987F45600238B78 /* DragonFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93DADE81987F45600238B78 /* DragonFashionTests.m */; };
+		F93DADF41987FB2700238B78 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = F93DADF31987FB2700238B78 /* Dragon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		F93DADCC1987F45600238B78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F93DADCD1987F45600238B78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F93DADD01987F45600238B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F93DADD21987F45600238B78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F93DADD31987F45600238B78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F93DADD21987F45600238B78 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F93DADD31987F45600238B78 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F93DADD51987F45600238B78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F93DADDB1987F45600238B78 /* DragonFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93DADDC1987F45600238B78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F93DADE41987F45600238B78 /* DragonFashionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragonFashionTests-Info.plist"; sourceTree = "<group>"; };
 		F93DADE61987F45600238B78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F93DADE81987F45600238B78 /* DragonFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonFashionTests.m; sourceTree = "<group>"; };
+		F93DADF21987FB2700238B78 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		F93DADF31987FB2700238B78 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 				F93DADCC1987F45600238B78 /* AppDelegate.h */,
 				F93DADCD1987F45600238B78 /* AppDelegate.m */,
 				F93DADCF1987F45600238B78 /* Main.storyboard */,
-				F93DADD21987F45600238B78 /* ViewController.h */,
-				F93DADD31987F45600238B78 /* ViewController.m */,
+				F93DADD21987F45600238B78 /* RootViewController.h */,
+				F93DADD31987F45600238B78 /* RootViewController.m */,
 				F93DADD51987F45600238B78 /* Images.xcassets */,
 				F93DADC41987F45600238B78 /* Supporting Files */,
+				F93DADF21987FB2700238B78 /* Dragon.h */,
+				F93DADF31987FB2700238B78 /* Dragon.m */,
 			);
 			path = DragonFashion;
 			sourceTree = "<group>";
@@ -249,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F93DADD41987F45600238B78 /* ViewController.m in Sources */,
+				F93DADD41987F45600238B78 /* RootViewController.m in Sources */,
 				F93DADCE1987F45600238B78 /* AppDelegate.m in Sources */,
+				F93DADF41987FB2700238B78 /* Dragon.m in Sources */,
 				F93DADCA1987F45600238B78 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
