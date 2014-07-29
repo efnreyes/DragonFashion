@@ -25,6 +25,10 @@
     Dragon *norbert = [[Dragon alloc] initWithName:@"Norbert" clothingItem:@"cigar"];
     Dragon *toothless = [[Dragon alloc] initWithName:@"Toothless" clothingItem:@"saddle"];
     self.dragons = [NSMutableArray arrayWithObjects:smaug, puff, charizard, norbert, toothless, nil];
+
+    for (Dragon *dragon in self.dragons) {
+        NSLog(@"%@", dragon.name);
+    }
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
