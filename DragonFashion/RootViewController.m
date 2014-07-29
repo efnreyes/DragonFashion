@@ -19,21 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    Dragon *smaug = [[Dragon alloc] init];
-    smaug.name = @"Smaug";
-    smaug.signatureClothingItem = @"High heels";
-    Dragon *puff = [[Dragon alloc] init];
-    puff.name = @"Puff the Magic Dragon";
-    puff.signatureClothingItem = @"scarf";
-    Dragon *charizard = [[Dragon alloc] init];
-    charizard.name = @"Charizard";
-    charizard.signatureClothingItem = @"ring";
-    Dragon *norbert = [[Dragon alloc] init];
-    norbert.name = @"Norbert";
-    norbert.signatureClothingItem = @"cigar";
-    Dragon *toothless = [[Dragon alloc] init];
-    toothless.name = @"Toothless";
-    toothless.signatureClothingItem = @"saddle";
+    Dragon *smaug = [[Dragon alloc] initWithName:@"Smaug" clothingItem:@"High heels"];
+    Dragon *puff = [[Dragon alloc] initWithName:@"Puff the Magic Dragon" clothingItem:@"scarf"];
+    Dragon *charizard = [[Dragon alloc] initWithName:@"Charizard" clothingItem:@"ring"];
+    Dragon *norbert = [[Dragon alloc] initWithName:@"Norbert" clothingItem:@"cigar"];
+    Dragon *toothless = [[Dragon alloc] initWithName:@"Toothless" clothingItem:@"saddle"];
     self.dragons = [NSMutableArray arrayWithObjects:smaug, puff, charizard, norbert, toothless, nil];
 }
 

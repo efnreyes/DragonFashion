@@ -10,4 +10,10 @@
 
 @implementation Dragon
 
+-(instancetype) initWithName:(NSString *)name clothingItem:(NSString *)signatureClothingItem {
+    self = [super init];
+    self.name = name;
+    self.signatureClothingItem = signatureClothingItem;
+    return self;
+}
 @end

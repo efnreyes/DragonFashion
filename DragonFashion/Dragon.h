@@ -11,4 +11,6 @@
 @interface Dragon : NSObject
 @property NSString *name;
 @property NSString *signatureClothingItem;
+
+-(instancetype)initWithName:(NSString *)name clothingItem:(NSString *)signatureClothingItem;
 @end
